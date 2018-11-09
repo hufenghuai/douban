@@ -28,8 +28,9 @@ export default {
   .search-box
     display flex
     justify-content center
+    align-items center
     width 100%
-    height 34px
+    height 40px
     .input-wrapper
       position relative
       width 90%
@@ -44,6 +45,7 @@ export default {
         padding-left 34px
         padding-right 34px
         outline none
+        box-shadow 1px #67a76b
       .input::-webkit-input-placeholder
         color #a9a9a9
         font-size 14px
