@@ -8,4 +8,6 @@
 </script>
 
 <style lang='stylus' ref='stylesheet/stylus' scoped>
+  *
+    touch-action pan-y
 </style>

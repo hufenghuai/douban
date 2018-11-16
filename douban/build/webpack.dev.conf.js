@@ -13,6 +13,11 @@ const portfinder = require('portfinder')
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
+const express = require('express')
+const app = express()
+const appData = require('../data.json')
+const dynamic = appData.dynamic
+
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap, usePostCSS: true })
@@ -22,6 +27,14 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
+    before (app) {
+      app.get('/api/dynamic', (req, res) => {
+        res.json({
+          errNo: 0,
+          data: dynamic
+        })
+      })
+    },
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [

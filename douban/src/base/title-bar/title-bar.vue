@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="move-bar">
+  <div class="move-bar" :class="{'fixed': fixed}">
     <div ref="titleItem" class="title-item" :class="{'title-item-active': index === currentIndex}" v-for="(item, index) in title" :key="item.id" @click="itemClick(index)">
       {{item.name}}
     </div>
@@ -18,6 +18,10 @@ export default {
     titleItem: {
       type: String,
       default: ''
+    },
+    fixed: {
+      type: Boolean,
+      default: false
     }
   },
   data () {
@@ -40,6 +44,7 @@ export default {
       const offsetLeft = this.getOffsetLeft(index)
       this.setCurrentIndex(index)
       this.setTitlePosition(offsetLeft, true)
+      this.$emit('click', index)
     },
     // 设置titleLine位置
     setTitlePosition (left, transition) {
@@ -83,4 +88,11 @@ export default {
       width 30px
       height 2px
       background-color #FFFFFF
+  .fixed
+    .title-item
+      color #666
+    .title-item-active
+      color #5bbc5b
+    .title-line
+      background-color #5bbc5b
 </style>

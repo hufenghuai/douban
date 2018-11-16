@@ -12,13 +12,17 @@ const DIRECTION_V = 'vertical'
 
 export default {
   props: {
+    data: {
+      type: Array,
+      default: null
+    },
     probeType: {
       type: Number,
       default: 1
     },
     click: {
       type: Boolean,
-      default: false
+      default: true
     },
     direction: {
       type: String,
@@ -35,28 +39,22 @@ export default {
       if (!this.$refs.scroll) {
         return
       }
-      this.scroll = new BScroll(this.$refs.scroll, {
+      this.scroller = new BScroll(this.$refs.scroll, {
         probeType: this.probeType,
         click: this.click,
-        eventPassthrough: this.direction === DIRECTION_V ? DIRECTION_V : DIRECTION_H,
-        bounce: {
-          top: true,
-          bottom: true,
-          left: true,
-          right: true
-        }
+        eventPassthrough: this.direction === DIRECTION_V ? DIRECTION_V : DIRECTION_H
       })
       // 滚动结束刷新滚动区域
       // this.scroll.on('scrollEnd', this.scrollEnd)
       // 滚动结束刷新滚动区域
       // const _this = this
-      this.scroll.on('scroll', (pos) => {
+      this.scroller.on('scroll', (pos) => {
         this.$emit('scroll', pos)
       })
     },
     scrollToTop () {
-      if (this.scroll && this.scroll.y > 0) {
-        this.scroll && this.scroll.scrollTo(0, 0)
+      if (this.scroller && this.scroller.y > 0) {
+        this.scroller && this.scroller.scrollTo(0, 0)
       }
     },
     scrollEnd () {
@@ -66,10 +64,15 @@ export default {
     //   this.refresh()
     // },
     refresh () {
-      this.scroll && this.scroll.refresh()
+      this.scroller && this.scroller.refresh()
     },
     scroll (pos) {
       this.$emit('scroll')
+    }
+  },
+  watch: {
+    data () {
+      this.scroller && this.scroller.refresh()
     }
   }
 }

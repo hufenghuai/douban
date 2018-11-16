@@ -1,0 +1,200 @@
+{
+    "dynamic": [
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1952016862,1880307894&fm=27&gp=0.jpg",
+            "name": "豆瓣影视排行榜",
+            "description": "分享链接",
+            "updateTime": "昨天20:09",
+            "contentDesc": "【一周国外口碑综艺榜】 更新啦！ 本周最佳口碑国外综艺分别是",
+            "type": "list",
+            "clickList": [
+                "新西游记 第五季",
+                "新西游记 第六季",
+                "给我钱 第7季"
+            ],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣国外口碑综艺榜",
+                "descp": "豆瓣国外综艺节目一周排名，每周一更新"
+            },
+            "commitList": [
+                {
+                    "name": "123",
+                    "type": "privacy",
+                    "content": "all in啦，好看"
+                },
+                {
+                    "name": "gooey",
+                    "type": "public",
+                    "content": "新西游记！！！！哇塞！！"
+                }
+            ],
+            "like": 20,
+            "commitNum": 6,
+            "transmit": 1
+        },
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1952016862,1880307894&fm=27&gp=0.jpg",
+            "name": "豆瓣影视排行榜",
+            "description": "分享链接",
+            "updateTime": "昨天20:09",
+            "contentDesc": "【一周国内口碑综艺榜】 更新啦！ 本周最佳口碑国内综艺分别是",
+            "type": "list",
+            "clickList": [
+                "明星大侦探 第四季",
+                "一本好书",
+                "声入人心"
+            ],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣国内口碑综艺榜",
+                "descp": "豆瓣国内综艺节目一周排名，每周一更新"
+            },
+            "commitList": [
+                {
+                    "name": "一个挑剔的观众",
+                    "type": "public",
+                    "content": "怎么没人评论"
+                },
+                {
+                    "name": "Apple",
+                    "type": "public",
+                    "content": "都没看过。。。"
+                }
+            ],
+            "like": 13,
+            "commitNum": 10,
+            "transmit": 0
+        },
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1952016862,1880307894&fm=27&gp=0.jpg",
+            "name": "豆瓣影视排行榜",
+            "description": "分享链接",
+            "updateTime": "昨天20:09",
+            "contentDesc": "【一周热门电影榜】 更新啦！ 本周最佳热门电影分别是",
+            "type": "list",
+            "clickList": [
+                "碟中谍6：全面瓦解",
+                "胡桃夹子与四个王国",
+                "毒液：致命守护者"
+            ],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣热门电影榜",
+                "descp": "豆瓣电影一周热度排名，每周五更新"
+            },
+            "commitList": [
+                {
+                    "name": "郑fangfang",
+                    "type": "public",
+                    "content": "毒液第三？？？"
+                },
+                {
+                    "name": "洙茱",
+                    "type": "public",
+                    "content": "毒液不应该第一嘛？？？"
+                }
+            ],
+            "like": 41,
+            "commitNum": 25,
+            "transmit": 4
+        },
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1952016862,1880307894&fm=27&gp=0.jpg",
+            "name": "豆瓣影视排行榜",
+            "description": "分享链接",
+            "updateTime": "昨天20:09",
+            "contentDesc": "【一周口碑电影榜】 更新啦！ 本周最佳口碑电影分别是",
+            "type": "list",
+            "clickList": [
+                "克里斯托弗·罗宾",
+                "你给的仇恨",
+                "重金属囧途"
+            ],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣口碑电影榜",
+                "descp": "豆瓣电影一周高分电影，每周五更新"
+            },
+            "commitList": [
+                {
+                    "name": "障障障障障障障障",
+                    "type": "public",
+                    "content": "chritopho robin真的超好看"
+                },
+                {
+                    "name": "15周岁入北大",
+                    "type": "public",
+                    "content": "*****"
+                }
+            ],
+            "like": 30,
+            "commitNum": 3,
+            "transmit": 5
+        },
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1952016862,1880307894&fm=27&gp=0.jpg",
+            "name": "豆瓣电影",
+            "description": "说",
+            "updateTime": "11-05",
+            "contentDesc": "我们刚发现，针对“爱奇艺起诉豆瓣”的新闻，导致今天下午部分用户给某节目打一星。<br /><br />豆瓣评分的主旨是尽力还原普通观影大众对一部电影/电视剧的平均看法。请不要用评分来表达对非作品本身的看法，所有非正常评分都会被排除在外。我们会尽力保证所有条目评分正常。<br /><br />ps，谢谢大家的关心。",
+            "type": "pre",
+            "clickList": [],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣口碑电影榜",
+                "descp": "豆瓣电影一周高分电影，每周五更新"
+            },
+            "commitList": [
+                {
+                    "name": "障障障障障障障障",
+                    "type": "public",
+                    "content": "chritopho robin真的超好看"
+                },
+                {
+                    "name": "15周岁入北大",
+                    "type": "public",
+                    "content": "*****"
+                }
+            ],
+            "like": 30,
+            "commitNum": 3,
+            "transmit": 5
+        }
+    ],
+    "recommend": [
+        {
+            "titleImgUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2330815053,124273779&fm=27&gp=0.jpg",
+            "name": "豆瓣影视排行榜",
+            "description": "分享链接",
+            "updateTime": "昨天20:09",
+            "contentDesc": "【一周国外口碑综艺榜】 更新啦！ 本周最佳口碑国外综艺分别是",
+            "type": "list",
+            "clickList": [
+                "新西游记 第五季",
+                "新西游记 第六季",
+                "给我钱 第7季"
+            ],
+            "content": {
+                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
+                "title": "豆瓣国外口碑综艺榜",
+                "descp": "豆瓣国外综艺节目一周排名，每周一更新"
+            },
+            "commitList": [
+                {
+                    "name": "123",
+                    "type": "privacy",
+                    "content": "all in啦，好看"
+                },
+                {
+                    "name": "gooey",
+                    "type": "public",
+                    "content": "新西游记！！！！哇塞！！"
+                }
+            ],
+            "like": 20,
+            "commitNum": 6,
+            "transmit": 1
+        }
+    ]
+}
