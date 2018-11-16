@@ -165,33 +165,11 @@
     "recommend": [
         {
             "titleImgUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2330815053,124273779&fm=27&gp=0.jpg",
-            "name": "豆瓣影视排行榜",
-            "description": "分享链接",
-            "updateTime": "昨天20:09",
-            "contentDesc": "【一周国外口碑综艺榜】 更新啦！ 本周最佳口碑国外综艺分别是",
-            "type": "list",
-            "clickList": [
-                "新西游记 第五季",
-                "新西游记 第六季",
-                "给我钱 第7季"
-            ],
-            "content": {
-                "imgUrl": "http://img0.imgtn.bdimg.com/it/u=2577811927,228535961&fm=26&gp=0.jpg",
-                "title": "豆瓣国外口碑综艺榜",
-                "descp": "豆瓣国外综艺节目一周排名，每周一更新"
-            },
-            "commitList": [
-                {
-                    "name": "123",
-                    "type": "privacy",
-                    "content": "all in啦，好看"
-                },
-                {
-                    "name": "gooey",
-                    "type": "public",
-                    "content": "新西游记！！！！哇塞！！"
-                }
-            ],
+            "name": "肖浑",
+            "description": "你可能喜欢",
+            "updateTime": null,
+            "title": "中国电影导演捧老婆大赛",
+            "content": "中国电影界有一项奇观：越是大导演，越是热衷于在戏里用自己老婆当主演。 国外这种情况是很少见的。我想了好久，只想到三例：蒂姆·波顿和海伦娜·伯翰·卡特，俩人都是怪咖，喜欢拍一些奇奇怪怪的暗黑系童话电影。他们在恋爱与婚姻存续期间一共合作了8次，包括著名的《大鱼》、《查理和巧克力工厂》、《爱丽丝梦游仙境》系列等等。<br>",
             "like": 20,
             "commitNum": 6,
             "transmit": 1
